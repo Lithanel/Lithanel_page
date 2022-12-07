@@ -77,7 +77,6 @@ enableMissingTranslationPlaceholders = false
         url = "/"
         weight = 1
         identifier = 'home'
-        pre = "<i class='fa fa-heart'></i>&nbsp;"
 
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
