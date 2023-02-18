@@ -37,5 +37,5 @@ If you look at the error you can see that the colliders height is too high compa
 
 
 ## Error (No Collision Detection)
-My first attempt looked like this:
-![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png)
+This is my attempt creating the portal without setting the **Mesh Collider** to **Convex**.
+![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_convex.gif)
