@@ -30,10 +30,11 @@ Here are a few screenshots of the standard parkour:
 
 ![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_up.png)
 
-The goal of the parkour is to make a lap using our self implemented locomotion technique. 
+The goal of the parkour is to make a lap using our self implemented locomotion techniques. 
 The player was also supposed to be able to collect coins during the run.
 We were also assigned to implement an interaction technique, which was to be included in the following locations.
 
 ### Interaction tasks locations
 
 ![Standard parkour tasks](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_tasks.png)
+
