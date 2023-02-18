@@ -19,9 +19,23 @@ The teleporter is visible even from a distance thanks to the height of the colum
 The portal is supposed to appear as soon as the the snowball hits the ground. For this purpose I used collider.
 
 ### Snowball Collider & Rigidbody
+The snowball needs to have a **Continuous Collision Detection**, otherwise in too many cases the ball will fly through objects without being detected.
+The Trigger will be activated the moment the object is realeased from the hand.
 
 ![snowball collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/ball_collider.png)
 
-### Street Collider
+### Ground Collider
+The standard parkour contains street tiles with mesh colliders. The Collider should be set Convex to increase the change of the snowball being detected.
+In cases like the curve tiles the colliders were not set to **Convex**, since the portal would float in the air.
+I set the Rigidbody to **Kinematic** and activated all the **Constraints**, as the ground tiles should be not moveable. 
 
 ![street collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png)
+
+This image shows the collider of a curve tile. The Mesh Collider is set to convex. 
+If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.
+![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)
+
+
+## Error (No Collision Detection)
+My first attempt looked like this:
+![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png)

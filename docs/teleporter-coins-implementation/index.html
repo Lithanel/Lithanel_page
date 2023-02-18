@@ -54,9 +54,20 @@ What exactly do we need?</p>
 The teleporter is visible even from a distance thanks to the height of the column.</p>
 <p>The portal is supposed to appear as soon as the the snowball hits the ground. For this purpose I used collider.</p>
 <h3 id="snowball-collider--rigidbody">Snowball Collider &amp; Rigidbody</h3>
+<p>The snowball needs to have a <strong>Continuous Collision Detection</strong>, otherwise in too many cases the ball will fly through objects without being detected.
+The Trigger will be activated the moment the object is realeased from the hand.</p>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/ball_collider.png" alt="snowball collider"></p>
-<h3 id="street-collider">Street Collider</h3>
+<h3 id="ground-collider">Ground Collider</h3>
+<p>The standard parkour contains street tiles with mesh colliders. The Collider should be set Convex to increase the change of the snowball being detected.
+In cases like the curve tiles the colliders were not set to <strong>Convex</strong>, since the portal would float in the air.
+I set the Rigidbody to <strong>Kinematic</strong> and activated all the <strong>Constraints</strong>, as the ground tiles should be not moveable.</p>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png" alt="street collider"></p>
+<p>This image shows the collider of a curve tile. The Mesh Collider is set to convex.
+If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png" alt="convex collider"></p>
+<h2 id="error-no-collision-detection">Error (No Collision Detection)</h2>
+<p>My first attempt looked like this:
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png" alt="error collider"></p>
 <div class="edit-meta">
 Last updated on 18 Feb 2023
 
