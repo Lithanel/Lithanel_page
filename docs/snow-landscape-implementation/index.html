@@ -46,11 +46,15 @@
 the first thing i wanted to do was cover everything with snow.
 Therefore we used something integrated in Unity, which called &ldquo;Shader Graph&rdquo;. <br>
 I have oriented myself on this youtube video from Brackeys: <a href="https://youtu.be/IC9g5hlfV6o">https://youtu.be/IC9g5hlfV6o</a></p>
-<p>This was my first try:
-<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_before.png" alt="snow layer house before">
-<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_after.png" alt="snow layer house after">
-The shader was not working correctly and instead of covering only the top side of an object, it covered the whole object in snow, which made totally white.</p>
-<p>The next image contains my Shader Graphs for the snow layer:</p>
+<p>This was my first try:</p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_before.PNG" alt="snow layer house before">
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_after.PNG" alt="snow layer house after"></p>
+<p>The shader was not working correctly and instead of covering only the top side of an object, it covered the whole object in snow, which made totally white.
+The youtube video contained a little older version, which was the reason for this error and after a fix the house looked like this.</p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_completed.png" alt="snow layer house completed"></p>
+<p>Much better :) As you can see in the result image the snow only lies on the top layer of the object.
+This was possible thanks to a raycast from above. <br>
+The next image contains my Shader Graphs for the snow layer:</p>
 <h3 id="snow-layer-shader-graphs">Snow layer (Shader Graphs)</h3>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png" alt="snow layer shader graphs"></p>
 <p>The result is like day and night. The environment looks totally different:</p>
@@ -58,6 +62,9 @@ The shader was not working correctly and instead of covering only the top side o
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/before.png" alt="snow layer before"></p>
 <h3 id="parkour-after">Parkour After</h3>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/after.png" alt="snow layer after"></p>
+<h3 id="eye-error">Eye Error</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_yes.png" alt="snow layer eye error yes">
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png" alt="snow layer eye error no"></p>
 <div class="edit-meta">
 Last updated on 18 Feb 2023
 
