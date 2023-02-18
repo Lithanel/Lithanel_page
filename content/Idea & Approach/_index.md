@@ -36,4 +36,15 @@ It took a while to think of something suitable, but in the end I decided to go w
 The ball thrown by the player shall be a snowball and I wanted to include other things, which will be explained later on, so that the player feels more present. <br>
 
 ## Interaction Task
-Da ich auch das
+Of course, the winter theme should also be maintained for the interaction task. 
+My idea for the interaction task was to build a snowman instead of fitting the 2 T-shaped objects.
+The next image shows my concepts:
+
+![interaction concept](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/idea/interaction_concept.png)
+
+The interaction task consists of 3 phases.
+* 1.Phase: Attach the carrot (nose).
+* 2.Phase: Attach the branch (left arm).
+* 3.Phase: Attach the branch (right arm).
+
+The different objects can be attached by throwing them at the snowman.
