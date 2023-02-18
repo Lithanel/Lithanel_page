@@ -43,8 +43,16 @@ The result is like day and night. The environment looks totally different:
 
 ### Eye Error
 
+During implementing my project I stumbled upon this error. 
+This error causes you to see different scenes with both eyes and can be easily fixed by changing the **Stereo Rendering Mode** to **Multi Pass** instead of **Single Pass Instanced**.
+
+### Left Eye Vision
+
 ![snow layer eye error yes](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_yes.png)
 
+### Right Eye Vision
+![snow layer eye error no](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png)
+
+### Error Fix
 ![snow layer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/options.png)
 
-![snow layer eye error no](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png)
