@@ -13,12 +13,18 @@ Here are a few screenshots of the standard parkour:
 
 ### Standard parkour
 
-![Standard parkour](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour.png)
+![Standard parkour](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour.png)
 
 ### Standard parkour (other side)
 
-![Standard parkour other side](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour2.png)
+![Standard parkour other side](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour2.png)
 
 ### Standard parkour (from above)
 
-![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour_up.png)
+![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_up.png)
+
+The device I was provided with was the "Oculus Quest 2":
+
+### Oculus Quest 2
+
+![Oculus Quest 2](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/oculus_quest.png)
