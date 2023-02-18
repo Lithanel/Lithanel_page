@@ -8,6 +8,8 @@ draft: false
 
 ## Snowball Parkour
 
-Welcome to my university VR-Project about locomotion and interaction.
+Welcome to my university VR-Project about locomotion and interaction. <br>
+My name is Kyu Hwan Yoo and I am currently doing my Master's degree at the Technical university Darmstadt. <br>
 In this blog I will guide you through my development journey and 
-I hope to give you a good insight about my ideas and struggles.
+I hope to give you a good insight about my ideas and struggles. <br>
+So let's not waste any more and get started right away.
