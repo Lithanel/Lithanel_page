@@ -2,6 +2,7 @@
 title: "Idea & Approach"
 date: 2023-02-18T09:46:32+01:00
 draft: false
+weight: 20
 ---
 
 When we think about locomotion techniques, there are several metrics that need to be considered.

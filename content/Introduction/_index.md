@@ -2,6 +2,7 @@
 title: "Introduction"
 date: 2023-02-18T09:46:32+01:00
 draft: false
+weight: 10
 ---
 
 In the Wintersemester 2022/2023 I decided to participate in the module "Interaction in Virtual and Augmented Reality".
