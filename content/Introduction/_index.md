@@ -14,3 +14,11 @@ Here are a few screenshots of the standard parkour:
 ### Standard parkour
 
 ![Standard parkour](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour.png)
+
+### Standard parkour (other side)
+
+![Standard parkour other side](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour2.png)
+
+### Standard parkour (from above)
+
+![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/standard_parkour_up.png)
