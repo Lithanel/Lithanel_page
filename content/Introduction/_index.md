@@ -15,6 +15,9 @@ The device we were provided with was the "Oculus Quest 2":
 
 ![Oculus Quest 2](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/oculus_quest.png)
 
+We were free to use any unity assets we wanted, but I decided to stay with the **Oculus Integration**. You can find the asset through this link: <br>
+https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+
 We were given the task to implement a locomotion and also an interaction technique, which we had to include in a given VR-environment.
 It was a pre-implemented parkour which we were supposed to improve and adapt.
 Here are a few screenshots of the standard parkour:

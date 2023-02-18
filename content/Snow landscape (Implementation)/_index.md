@@ -28,9 +28,6 @@ The next image contains my Shader Graphs for the snow layer:
 
 ![snow layer shader graphs](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png)
 
-
-
-
 The result is like day and night. The environment looks totally different:
 
 ### Parkour Before
@@ -41,7 +38,7 @@ The result is like day and night. The environment looks totally different:
 
 ![snow layer after](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/after.png)
 
-### Eye Error
+## Eye Error
 
 During implementing my project I stumbled upon this error. 
 This error causes you to see different scenes with both eyes and can be easily fixed by changing the **Stereo Rendering Mode** to **Multi Pass** instead of **Single Pass Instanced**.
