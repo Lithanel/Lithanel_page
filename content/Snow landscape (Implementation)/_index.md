@@ -44,4 +44,7 @@ The result is like day and night. The environment looks totally different:
 ### Eye Error
 
 ![snow layer eye error yes](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_yes.png)
+
+![snow layer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/options.png)
+
 ![snow layer eye error no](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png)
