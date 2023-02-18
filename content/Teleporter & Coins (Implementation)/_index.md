@@ -13,7 +13,7 @@ What exactly do we need?
 * The player can press a button to teleport to the portals location. Teleporter disappears when used.
 
 First of all we need a model for the portal. This is the model I came up with:
-![teleporter](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter.png)
+![teleporter](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter.png)<br>
 The teleporter is visible even from a distance thanks to the height of the column.
 
 The portal is supposed to appear as soon as the the snowball hits the ground. For this purpose I used collider.
@@ -36,6 +36,12 @@ If you look at the error you can see that the colliders height is too high compa
 ![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)
 
 
-## Error (No Collision Detection)
+## Errors
+### Collision Detection Error
 This is my attempt creating the portal without setting the **Mesh Collider** to **Convex**.
-![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_convex.gif)
+![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_convex.gif)<br>
+The snowball just disappear into the ground, since some collisions are not detected properly.
+There were still some snowballs disappearing without creating a portal, even with the Mesh Colliders set to convex.
+
+This problem was solved by creating a big platform underneath the map to catch the balls in case they fall through the ground.
+![platform](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/platform.png)<br>
