@@ -28,3 +28,7 @@ In the follwing picture you can see my locomotion concept:
 * If the ball collides with the ground it creates a portal.
 * The player can activate the portal to teleport to the portals position.
 * After activation the portal disappears.
+
+I wanted to have some kind of theme that would fit well with my locomotion technique. 
+It took a while to think of something suitable, but in the end I decided to go with a winter theme.
+The ball thrown by the player shall be a snowball and I wanted to include other things so that the player feels more present.
