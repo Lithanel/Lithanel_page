@@ -39,3 +39,12 @@ We were also assigned to implement an interaction technique, which was to be inc
 
 ![Standard parkour tasks](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_tasks.png)
 
+### Standard Interaction Task
+
+The interaction task in standard parkour looks like this:
+![Standard interaction task](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_interaction_task.png)
+
+* The interaction task includes 2 T-shaped objects. One is more transparent than the other.
+* The player can grab the opaque object.
+* The player must place the opque object on top of the transparent object.
+* The time is and the accuracy is measured.
