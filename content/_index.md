@@ -1,7 +1,7 @@
 ---
 title: "Home_title"
 date: 2023-02-16T12:30:05+01:00
-draft: true
+draft: false
 ---
 
 # Interaction in Virtual and Augmented Reality
