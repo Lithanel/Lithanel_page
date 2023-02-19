@@ -56,7 +56,7 @@ This is the result: <br>
 <p>One problem i had to deal with was that the snowball was hard to detect in the snowy landscape.
 I mean it&rsquo;s a white object on a white background&hellip;
 There were two things I added into my project to make the snowball more visible in case of grabbing and in case of throwing the ball.</p>
-<h1 id="outline-snowball">Outline Snowball</h1>
+<h3 id="outline">Outline</h3>
 <p>I found a very good free asset in the unity asset store to highlight the snowball in case the player grabs it.<br>
 Here is the link to the asset called <strong>Quick Outline</strong>: <a href="https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488">https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488</a><br>
 I just had to make sure that the provided script is activated as soon as the snowball was grabbed.
@@ -64,6 +64,13 @@ The asset <strong>Oculus Integration</strong>, which we mentioned in the introdu
 that contains two functions called <strong>GrabBegin</strong> and <strong>GrabEnd</strong>.
 These functions can be used to find out when the snowballs are grabbed and the outline can be activated/deactivated accordingly.
 <img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/outline.png" alt="outline"><br></p>
+<h3 id="trail-renderer">Trail Renderer</h3>
+<p>To ensure that the ball does not merge with the landscape and becomes invisible to the players eyes, I used something called <strong>Trail Renderer</strong>.
+This feature is included in unity and can be used by adding this component to an object. <br>
+I found this very short, but informative tutorial and added it to my project: <a href="https://www.youtube.com/watch?v=9PqPZDqSDWA">https://www.youtube.com/watch?v=9PqPZDqSDWA</a> <br>
+In the following picture you can see the options I used and the gif shows the final result. <br>
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer_options.png" alt="trail renderer options"><br>
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.png" alt="trail renderer"><br></p>
 <div class="edit-meta">
 Last updated on 18 Feb 2023
 

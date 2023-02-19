@@ -23,7 +23,7 @@ One problem i had to deal with was that the snowball was hard to detect in the s
 I mean it's a white object on a white background...
 There were two things I added into my project to make the snowball more visible in case of grabbing and in case of throwing the ball.
 
-# Outline Snowball
+### Outline
 
 I found a very good free asset in the unity asset store to highlight the snowball in case the player grabs it.<br>
 Here is the link to the asset called **Quick Outline**: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488<br>
@@ -32,3 +32,13 @@ The asset **Oculus Integration**, which we mentioned in the introduction, has a 
 that contains two functions called **GrabBegin** and **GrabEnd**. 
 These functions can be used to find out when the snowballs are grabbed and the outline can be activated/deactivated accordingly.
 ![outline](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/outline.png)<br>
+
+### Trail Renderer
+
+To ensure that the ball does not merge with the landscape and becomes invisible to the players eyes, I used something called **Trail Renderer**.
+This feature is included in unity and can be used by adding this component to an object. <br>
+I found this very short, but informative tutorial and added it to my project: https://www.youtube.com/watch?v=9PqPZDqSDWA <br>
+In the following picture you can see the options I used and the gif shows the final result. <br>
+![trail renderer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer_options.png)<br>
+![trail renderer](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.png)<br>
+
