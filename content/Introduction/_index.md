@@ -13,10 +13,10 @@ The device we were provided with was the "Oculus Quest 2":
 
 ### Oculus Quest 2
 
-![Oculus Quest 2](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/oculus_quest.png)
+![Oculus Quest 2](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/oculus_quest.png)<br>
 
 We were free to use any unity assets we wanted, but I decided to stay with the **Oculus Integration**. You can find the asset through this link: <br>
-https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022 <br>
 
 We were given the task to implement a locomotion and also an interaction technique, which we had to include in a given VR-environment.
 It was a pre-implemented parkour which we were supposed to improve and adapt.
@@ -32,7 +32,7 @@ Here are a few screenshots of the standard parkour:
 
 ### Standard parkour (from above)
 
-![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_up.png)
+![Standard parkour from above](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_parkour_up.png) <br>
 
 The goal of the parkour is to make a lap using our self implemented locomotion techniques. 
 The player was also supposed to be able to collect coins during the run.
@@ -44,8 +44,8 @@ We were also assigned to implement an interaction technique, which was to be inc
 
 ### Standard Interaction Task
 
-The interaction task in standard parkour looks like this:
-![Standard interaction task](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_interaction_task.png)
+The interaction task in standard parkour looks like this:<br>
+![Standard interaction task](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/introduction/standard_interaction_task.png)<br>
 
 * The interaction task includes two T-shaped objects. One is more transparent than the other.
 * The player can grab the opaque object.

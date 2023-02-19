@@ -24,7 +24,7 @@ In the following picture you can see my locomotion concept:
 
 ### Idea ball & teleportation
 
-![idea tp](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/idea/idea_tp.png)
+![idea tp](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/idea/idea_tp.png)<br>
 
 * The player can throw a ball to collect coins.
 * If the ball collides with the ground it creates a portal.
@@ -38,9 +38,9 @@ The ball thrown by the player shall be a snowball and I wanted to include other 
 ## Interaction Task
 Of course, the winter theme should also be maintained for the interaction task. 
 My idea for the interaction task was to build a snowman instead of fitting the two T-shaped objects.
-The next image shows my concepts:
+The next image shows my concepts:<br>
 
-![interaction concept](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/idea/interaction_concept.png)
+![interaction concept](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/idea/interaction_concept.png)<br>
 
 The interaction task consists of 3 phases.
 * 1.Phase: Attach the carrot (nose).

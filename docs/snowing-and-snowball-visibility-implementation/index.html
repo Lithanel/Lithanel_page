@@ -52,6 +52,18 @@ In the end there was not enough snow falling down.
 I realized I it only had to snow close to the player, so I made a smaller particle area and attached it to the player.
 This is the result: <br>
 <img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/snowing.gif" alt="snowing"><br></p>
+<h2 id="snowball-visibility">Snowball Visibility</h2>
+<p>One problem i had to deal with was that the snowball was hard to detect in the snowy landscape.
+I mean it&rsquo;s a white object on a white background&hellip;
+There were two things I added into my project to make the snowball more visible in case of grabbing and in case of throwing the ball.</p>
+<h1 id="outline-snowball">Outline Snowball</h1>
+<p>I found a very good free asset in the unity asset store to highlight the snowball in case the player grabs it.<br>
+Here is the link to the asset called <strong>Quick Outline</strong>: <a href="https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488">https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488</a><br>
+I just had to make sure that the provided script is activated as soon as the snowball was grabbed.
+The asset <strong>Oculus Integration</strong>, which we mentioned in the introduction, has a script named <strong>OVRGrabbable.cs</strong>
+that contains two functions called <strong>GrabBegin</strong> and <strong>GrabEnd</strong>.
+These functions can be used to find out when the snowballs are grabbed and the outline can be activated/deactivated accordingly.
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/outline.png" alt="outline"><br></p>
 <div class="edit-meta">
 Last updated on 18 Feb 2023
 
