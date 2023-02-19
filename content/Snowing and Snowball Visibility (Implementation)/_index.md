@@ -40,5 +40,5 @@ This feature is included in unity and can be used by adding this component to an
 I found this very short, but informative tutorial and added it to my project: https://www.youtube.com/watch?v=9PqPZDqSDWA <br>
 In the following picture you can see the options I used and the gif shows the final result. <br>
 ![trail renderer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer_options.png)<br>
-![trail renderer](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.png)<br>
+![trail renderer](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.gif)<br>
 
