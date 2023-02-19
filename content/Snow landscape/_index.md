@@ -28,9 +28,9 @@ The next image contains my Shader Graphs for the snow layer:
 
 ![snow layer shader graphs](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png)<br>
 
-The result is like day and night. The environment looks totally different:
-
 ### Parkour Before
+
+The result is like day and night. The environment looks totally different: <br>
 
 ![snow layer before](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/before.png)
 

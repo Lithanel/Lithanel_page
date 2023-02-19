@@ -50,4 +50,4 @@ The interaction task in standard parkour looks like this:<br>
 * The interaction task includes two T-shaped objects. One is more transparent than the other.
 * The player can grab the opaque object.
 * The player must place the opque object on top of the transparent object.
-* The time is and the accuracy is measured.
+* The time and the accuracy are measured.

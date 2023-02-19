@@ -48,6 +48,8 @@ This is how the Interaction Portal works: <br>
 
 ![interaction porta](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_portal.gif)<br>
 
+It's impossible to create portals during interaction tasks.
+
 ## Interaction Buttons
 
 The standard parkour already contained interaction button, but I wanted the player only to interact with the snowball, carrot and branches.

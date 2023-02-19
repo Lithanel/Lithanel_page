@@ -48,4 +48,4 @@ The interaction task consists of 3 phases.
 * 3.Phase: Attach the branch (right arm).
 
 The different objects can be attached by throwing them at the snowman.
-In the next chapters I will explain how I implemented my project and also the things I struggled with.
+Next I will explain how I implemented my project and also the things I struggled with.

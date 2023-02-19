@@ -32,3 +32,11 @@ Vector3 fullThrowVelocity = (linearVelocity + cross) * ballSpeed;
 * linearVelocity = linear velocity of the controller
 * controllerVelocityCross = cross
 * ballSpeed = manually inserted number to adjust the velocity
+
+## First Throw
+
+![throwing snowball](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_snowball.gif)
+
+## Higher Velocity (ballSpeed)
+
+![throwing further](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_further.gif)
