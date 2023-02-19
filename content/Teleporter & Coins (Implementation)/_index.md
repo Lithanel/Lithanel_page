@@ -53,3 +53,9 @@ This error occurs, since the velocity of the ball is still high and it still tra
 Gravity is also still active, which makes the ball lose height. This state repeats itself until the velocity reaches 0.
 You can fix this problem by setting the velocity and gravity to 0 the moment the ball hits an object.<br>
 ![error_jiggle](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_jiggle.gif)<br>
+
+## Collect Coins
+
+To collect coins you have to watch for collisions just like with the teleporter.
+For the coins i created a seperate tag to ask for this in case of a collision.
+If the snowball collides with the coin the coin will be deactivated and the coin counter will be increased by one.
