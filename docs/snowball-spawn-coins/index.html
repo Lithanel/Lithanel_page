@@ -42,14 +42,25 @@
 </div>
 
 <div class="content-container">
-<main><h1>Snowball Spawn &amp; Coins</h1><div class="edit-meta">
+<main><h1>Snowball Spawn &amp; Coins</h1><h2 id="snowball-spawn">Snowball Spawn</h2>
+<p>Until now the snowball spawned at a designated location, which is not what we want. We want the snowball spawner to move and rotate with the player.
+I tried to implement something similar to this video (<a href="https://youtu.be/FFM2oyLUysk">https://youtu.be/FFM2oyLUysk</a>) and partly succeeded.
+The only thing I failed at was to move the spawn slightly to the players right side, but now the snowball always spawns at the players hip area
+and also moves and turns around with the player.</p>
+<h2 id="collect-coins">Collect Coins</h2>
+<p>To collect coins you have to watch for collisions just like with the teleporter.
+For the coins i created a seperate tag to ask for it in case of a collision.
+If the snowball collides with the coin the coin will be deactivated and the coin counter will be increased by one.<br>
+This is how the result looks like: <br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/spawn/collect_coin.gif" alt="collect coin"><br></p>
+<div class="edit-meta">
 Last updated on 18 Feb 2023
 
 
 <br>
 Published on 18 Feb 2023
 <br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/Snowball%20Spawn%20&amp;%20Coins%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://Lithanel.github.io/Lithanel_page/snowing-and-snowball-visibility/" title="Snowing and Snowball Visibility"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Snowing and Snowball Visibility</a>
-<a class="nav nav-next" href="https://Lithanel.github.io/Lithanel_page/introduction/" title="Introduction">Next - Introduction <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<a class="nav nav-next" href="https://Lithanel.github.io/Lithanel_page/interaction-task/" title="Interaction Task">Next - Interaction Task <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -84,6 +95,10 @@ Published on 18 Feb 2023
 </li>
 
 <li class=" active"><a href="https://Lithanel.github.io/Lithanel_page/snowball-spawn-coins/">Snowball Spawn &amp; Coins</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/interaction-task/">Interaction Task</a>
   
 </li>
 </ul>
