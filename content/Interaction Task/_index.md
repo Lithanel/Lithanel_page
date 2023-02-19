@@ -66,3 +66,5 @@ The number of throws of the individual interaction tasks are counted and recorde
 This is the full Interaction Task. As you can see the objects respawn if they don't hit the target and stay on the snowman if the target is hit. <br>
 
 ![full interaction](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/full_interaction.gif)<br>
+
+This is the last implementation chapter. I hope you enjoyed watching my development journey and if you want you want you can stay for the evaluation.
