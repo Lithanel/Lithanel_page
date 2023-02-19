@@ -39,7 +39,7 @@ which has the consequence that the portal floats in the air.<br>
 
 ## Errors
 ### Collision Detection Error
-This are my attempts creating the portal without setting the **Mesh Collider** to **Convex**.<br>
+These are my attempts creating the portal without setting the **Mesh Collider** to **Convex**.<br>
 
 ![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_convex.gif)<br>
 
@@ -47,7 +47,7 @@ This are my attempts creating the portal without setting the **Mesh Collider** t
 
 
 The snowball just disappear into the ground, since some collisions are not detected properly.
-There were still some snowballs disappearing without creating a portal, even though the Mesh Colliders set to convex.
+There were still some snowballs disappearing without creating a portal, even with the Mesh Colliders set to convex.
 
 This problem was solved by creating a big platform underneath the map to catch the balls in case they fall through the ground.<br>
 
@@ -66,4 +66,4 @@ You can fix this problem by setting the velocity and gravity to 0 the moment the
 
 This is the final version of the teleporter system, which made it into the project: <br>
 
-![teleporter final](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/t.gif)<br>
+![teleporter final](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporting.gif)<br>

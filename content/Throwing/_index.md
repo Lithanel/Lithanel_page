@@ -35,12 +35,20 @@ Vector3 fullThrowVelocity = (linearVelocity + cross) * ballSpeed;
 
 ## First Throw
 
-![throwing snowball](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_snowball.gif)
+This is one of the first throws I tested on my project: <br>
+
+![throwing snowball](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_snowball.gif) <br>
+
+Yes, the snowball is black and i promise you it won't stay like this. :)
 
 ## Higher Velocity (ballSpeed)
+
+In this prototype I tried out increasing the variable **ballSpeed**. The snowball flew much further than in the previous version.<br>
 
 ![throwing further](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_further.gif)
 
 ## Funny Bug
+
+This is a funny bug I found from one of my tests. I can't exactly remember what caused this, but I thought it was good enough to add this here. :D <br>
 
 ![it flies away](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/it_flies_away.gif)

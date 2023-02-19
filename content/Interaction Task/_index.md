@@ -60,3 +60,9 @@ The number of throws of the individual interaction tasks are counted and recorde
 <br>
 
 ![interaction buttons](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_buttons.png)<br>
+
+## Interaction Task in Action
+
+This is the full Interaction Task. As you can see the objects respawn if they don't hit the target and stay on the snowman if the target is hit. <br>
+
+![full interaction](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/full_interaction.gif)<br>
