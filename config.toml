@@ -78,6 +78,18 @@ enableMissingTranslationPlaceholders = false
         weight = 1
         identifier = 'home'
 
+	[[menu.main]]
+		name = "Github Link"
+		url = "https://github.com/Lithanel/Lithanel_page"
+		weight = 2
+		identifier = 'github'
+		
+	[[menu.main]]
+		name = "Full Parkour Walkthrough"
+		url = "https://youtu.be/jvG9EkpNT6E"
+		weight = 3
+		identifier = 'youtube'
+		
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
 [markup]
