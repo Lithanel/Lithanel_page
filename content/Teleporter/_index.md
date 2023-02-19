@@ -32,13 +32,10 @@ I set the Rigidbody to **Kinematic** and activated all the **Constraints**, as t
 ![street collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png)<br>
 
 This image shows the collider of a curve tile. The Mesh Collider is set to convex. 
-If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.<br>
+If you look at the error you can see that the colliders height is too high compared to the ground in the foreground,
+which has the consequence that the portal floats in the air.<br>
 
 ![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)<br>
-
-This is the final version of the teleporter system:<br>
-
-![teleporter final](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter_final.gif)<br>
 
 ## Errors
 ### Collision Detection Error
@@ -62,8 +59,8 @@ You can fix this problem by setting the velocity and gravity to 0 the moment the
 
 ![error_jiggle](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_jiggle.gif)<br>
 
-## Collect Coins
+## Final Teleporter Version
 
-To collect coins you have to watch for collisions just like with the teleporter.
-For the coins i created a seperate tag to ask for this in case of a collision.
-If the snowball collides with the coin the coin will be deactivated and the coin counter will be increased by one.
+This is the final version of the teleporter system, which made it into the project: <br>
+
+![teleporter final](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleportation_final.gif)<br>

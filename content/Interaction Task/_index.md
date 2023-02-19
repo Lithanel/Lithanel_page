@@ -47,3 +47,14 @@ interaction task by teleporting to this portal.<br>
 This is how the Interaction Portal works: <br>
 
 ![interaction porta](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_portal.gif)<br>
+
+## Interaction Buttons
+
+The standard parkour already contained interaction button, but I wanted the player only to interact with the snowball, carrot and branches.
+This is the reason that I increased the size of the buttons and made it possible for the player to interact with them by throwing the snowball at them. 
+As mentioned in chapter **Idea & Approach** the interaction task consist of three phases. 
+Every phase can be started by throwing at the **Hit me**-Button and can be ended by hitting the **Done**-Button.
+The number of throws of the individual interaction tasks are counted and recorded seperately.
+<br>
+
+![interaction buttons](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_buttons.png)<br>

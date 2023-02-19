@@ -63,10 +63,9 @@ In cases like the curve tiles the colliders were not set to <strong>Convex</stro
 I set the Rigidbody to <strong>Kinematic</strong> and activated all the <strong>Constraints</strong>, as the ground tiles should be not moveable. <br></p>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png" alt="street collider"><br></p>
 <p>This image shows the collider of a curve tile. The Mesh Collider is set to convex.
-If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.<br></p>
+If you look at the error you can see that the colliders height is too high compared to the ground in the foreground,
+which has the consequence that the portal floats in the air.<br></p>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png" alt="convex collider"><br></p>
-<p>This is the final version of the teleporter system:<br></p>
-<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter_final.gif" alt="teleporter final"><br></p>
 <h2 id="errors">Errors</h2>
 <h3 id="collision-detection-error">Collision Detection Error</h3>
 <p>This is my attempt creating the portal without setting the <strong>Mesh Collider</strong> to <strong>Convex</strong>.<br></p>
@@ -81,10 +80,9 @@ This error occurs, since the velocity of the ball is still high and it still tra
 Gravity is also still active, which makes the ball lose height. This state repeats itself until the velocity reaches 0.
 You can fix this problem by setting the velocity and gravity to 0 the moment the ball hits an object.<br></p>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_jiggle.gif" alt="error_jiggle"><br></p>
-<h2 id="collect-coins">Collect Coins</h2>
-<p>To collect coins you have to watch for collisions just like with the teleporter.
-For the coins i created a seperate tag to ask for this in case of a collision.
-If the snowball collides with the coin the coin will be deactivated and the coin counter will be increased by one.</p>
+<h2 id="final-teleporter-version">Final Teleporter Version</h2>
+<p>This is the final version of the teleporter system, which made it into the project: <br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleportation_final.gif" alt="teleporter final"><br></p>
 <div class="edit-meta">
 Last updated on 18 Feb 2023
 
