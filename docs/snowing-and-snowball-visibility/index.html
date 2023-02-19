@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Snowing and Snowball Visibility - Interaction in Virtual and Augmented Reality</title>
+<meta name="description" content="Snowball Parkour">
+<meta name="generator" content="Hugo 0.105.0">
+<link href="https://Lithanel.github.io/Lithanel_page/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://Lithanel.github.io/Lithanel_page/snowing-and-snowball-visibility/">
+<link rel="stylesheet" href="https://Lithanel.github.io/Lithanel_page/css/theme.min.css">
+<link rel="stylesheet" href="https://Lithanel.github.io/Lithanel_page/css/chroma.min.css">
+<script defer src="https://Lithanel.github.io/Lithanel_page/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://Lithanel.github.io/Lithanel_page/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="Snowing and Snowball Visibility" />
+<meta property="og:description" content="Snowball Parkour" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://Lithanel.github.io/Lithanel_page/snowing-and-snowball-visibility/" /><meta property="og:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/><meta property="og:site_name" content="Hugo Techdoc Theme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/>
+
+<meta name="twitter:title" content="Snowing and Snowball Visibility"/>
+<meta name="twitter:description" content="Snowball Parkour"/>
+<meta itemprop="name" content="Snowing and Snowball Visibility">
+<meta itemprop="description" content="Snowball Parkour"></head>
+<body><div class="container"><header>
+<h1>Interaction in Virtual and Augmented Reality</h1><span class="version">Version 0.9.9</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">Snowball Parkour</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/Lithanel_page/">Home</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>Snowing and Snowball Visibility</h1><h2 id="snowing">Snowing</h2>
+<p>To increase the chances that the player feels present in the snow landscape I wanted to add a snowing animation.
+Therefore I used the <strong>Unity Particle System</strong>. <br>
+I found a good tutorial on youtube (<a href="https://youtu.be/4wzubisvcyI">https://youtu.be/4wzubisvcyI</a>) and tried to implement into my parkour.
+I made the mistake of trying to apply the particle system to the whole parkour.
+The system could not keep up with the creation of the particles and there were also some performance issues.
+In the end there was not enough snow falling down.
+I realized I it only had to snow close to the player, so I made a smaller particle area and attached it to the player.
+This is the result: <br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/snowing.gif" alt="snowing"><br></p>
+<h2 id="snowball-visibility">Snowball Visibility</h2>
+<p>One problem i had to deal with was that the snowball was hard to detect in the snowy landscape.
+I mean it&rsquo;s a white object on a white background&hellip;
+There were two things I added into my project to make the snowball more visible in case of grabbing and in case of throwing the ball.</p>
+<h3 id="outline">Outline</h3>
+<p>I found a very good free asset in the unity asset store to highlight the snowball in case the player grabs it.<br>
+Here is the link to the asset called <strong>Quick Outline</strong>: <a href="https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488">https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488</a><br>
+I just had to make sure that the provided script is activated as soon as the snowball was grabbed.
+The asset <strong>Oculus Integration</strong>, which we mentioned in the introduction, has a script named <strong>OVRGrabbable.cs</strong>
+that contains two functions called <strong>GrabBegin</strong> and <strong>GrabEnd</strong>.
+These functions can be used to find out when the snowballs are grabbed and the outline can be activated/deactivated accordingly.</p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/outline.png" alt="outline"><br></p>
+<h3 id="trail-renderer">Trail Renderer</h3>
+<p>To ensure that the ball does not merge with the landscape and becomes invisible to the players eyes, I used something called <strong>Trail Renderer</strong>.
+This feature is included in unity and can be used by adding this component to an object. <br>
+I found this very short, but informative tutorial and added it to my project: <a href="https://www.youtube.com/watch?v=9PqPZDqSDWA">https://www.youtube.com/watch?v=9PqPZDqSDWA</a> <br>
+In the following picture you can see the options I used and the gif shows the final result. <br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer_options.png" alt="trail renderer options"><br>
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.gif" alt="trail renderer"><br></p>
+<div class="edit-meta">
+Last updated on 18 Feb 2023
+
+
+<br>
+Published on 18 Feb 2023
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/Snowing%20and%20Snowball%20Visibility%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://Lithanel.github.io/Lithanel_page/teleporter/" title="Teleporter &amp; Coins"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Teleporter &amp; Coins</a>
+<a class="nav nav-next" href="https://Lithanel.github.io/Lithanel_page/snowball-spawn-coins/" title="Snowball Spawn &amp; Coins">Next - Snowball Spawn &amp; Coins <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page">Home</a></li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/introduction/">Introduction</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/idea-approach/">Idea &amp; Approach</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/snow-landscape/">Snow landscape</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/throwing/">Throwing</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/teleporter/">Teleporter &amp; Coins</a>
+  
+</li>
+
+<li class=" active"><a href="https://Lithanel.github.io/Lithanel_page/snowing-and-snowball-visibility/">Snowing and Snowball Visibility</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/snowball-spawn-coins/">Snowball Spawn &amp; Coins</a>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

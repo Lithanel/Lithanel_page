@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Snow landscape - Interaction in Virtual and Augmented Reality</title>
+<meta name="description" content="Snowball Parkour">
+<meta name="generator" content="Hugo 0.105.0">
+<link href="https://Lithanel.github.io/Lithanel_page/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://Lithanel.github.io/Lithanel_page/snow-landscape/">
+<link rel="stylesheet" href="https://Lithanel.github.io/Lithanel_page/css/theme.min.css">
+<link rel="stylesheet" href="https://Lithanel.github.io/Lithanel_page/css/chroma.min.css">
+<script defer src="https://Lithanel.github.io/Lithanel_page/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="https://Lithanel.github.io/Lithanel_page/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="Snow landscape" />
+<meta property="og:description" content="Snowball Parkour" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://Lithanel.github.io/Lithanel_page/snow-landscape/" /><meta property="og:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/><meta property="og:site_name" content="Hugo Techdoc Theme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/>
+
+<meta name="twitter:title" content="Snow landscape"/>
+<meta name="twitter:description" content="Snowball Parkour"/>
+<meta itemprop="name" content="Snow landscape">
+<meta itemprop="description" content="Snowball Parkour"></head>
+<body><div class="container"><header>
+<h1>Interaction in Virtual and Augmented Reality</h1><span class="version">Version 0.9.9</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">Snowball Parkour</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/Lithanel_page/">Home</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>Snow landscape</h1><p>Since I decided on the winter theme and to give the player the impression that they are in a winter landscape,
+the first thing i wanted to do was cover everything with snow.
+Therefore we used something integrated in Unity, which called &ldquo;Shader Graph&rdquo;. <br>
+I have oriented myself on this youtube video from Brackeys: <a href="https://youtu.be/IC9g5hlfV6o">https://youtu.be/IC9g5hlfV6o</a></p>
+<p>This was my first try:<br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_before.PNG" alt="snow layer house before">
+<img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_after.PNG" alt="snow layer house after"><br></p>
+<p>The shader was not working correctly and instead of covering only the top side of an object, it covered the whole object in snow, which made totally white.
+The youtube video contained a little older version, which was the reason for this error and after a fix the house looked like this.<br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_completed.png" alt="snow layer house completed"><br></p>
+<p>Much better :) As you can see in the result image the snow only lies on the top layer of the object.
+This was possible thanks to a raycast from above. <br>
+The next image contains my Shader Graphs for the snow layer:</p>
+<h3 id="snow-layer-shader-graphs">Snow layer (Shader Graphs)</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png" alt="snow layer shader graphs"><br></p>
+<p>The result is like day and night. The environment looks totally different:</p>
+<h3 id="parkour-before">Parkour Before</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/before.png" alt="snow layer before"></p>
+<h3 id="parkour-after">Parkour After</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/after.png" alt="snow layer after"></p>
+<h2 id="eye-error">Eye Error</h2>
+<p>During implementing my project I stumbled upon this error.
+This error causes you to see different scenes with both eyes and can be easily fixed by changing the <strong>Stereo Rendering Mode</strong> to <strong>Multi Pass</strong> instead of <strong>Single Pass Instanced</strong>.</p>
+<h3 id="left-eye-vision">Left Eye Vision</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_yes.png" alt="snow layer eye error yes"></p>
+<h3 id="right-eye-vision">Right Eye Vision</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png" alt="snow layer eye error no"></p>
+<h3 id="error-fix">Error Fix</h3>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/options.png" alt="snow layer options"></p>
+<div class="edit-meta">
+Last updated on 18 Feb 2023
+
+
+<br>
+Published on 18 Feb 2023
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/Snow%20landscape%5c_index.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://Lithanel.github.io/Lithanel_page/idea-approach/" title="Idea &amp; Approach"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Idea &amp; Approach</a>
+<a class="nav nav-next" href="https://Lithanel.github.io/Lithanel_page/throwing/" title="Throwing">Next - Throwing <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page">Home</a></li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/introduction/">Introduction</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/idea-approach/">Idea &amp; Approach</a>
+  
+</li>
+
+<li class=" active"><a href="https://Lithanel.github.io/Lithanel_page/snow-landscape/">Snow landscape</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/throwing/">Throwing</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/teleporter/">Teleporter &amp; Coins</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/snowing-and-snowball-visibility/">Snowing and Snowball Visibility</a>
+  
+</li>
+
+<li class=""><a href="https://Lithanel.github.io/Lithanel_page/snowball-spawn-coins/">Snowball Spawn &amp; Coins</a>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
