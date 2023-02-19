@@ -8,7 +8,7 @@ weight: 40
 In this chapter I talk about the throwing method.
 The throwing method was done by **Karl Lewis**. I used a lot of his code and approach, so
 please check out his website if you want to learn how to implement it yourself or maybe you want to know more about the mathematical background. <br>
-https://karllewisdesign.com/how-to-improve-throwing-physics-in-vr/
+https://karllewisdesign.com/how-to-improve-throwing-physics-in-vr/<br>
 
 I will just briefly summarize the approach I used. 
 The **Oculus Integration** Unity Asset already has a grab and release function, but the problem is that it feels very unnatural to throw objects with it.

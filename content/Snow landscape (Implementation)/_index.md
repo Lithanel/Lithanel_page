@@ -10,15 +10,15 @@ the first thing i wanted to do was cover everything with snow.
 Therefore we used something integrated in Unity, which called "Shader Graph". <br>
 I have oriented myself on this youtube video from Brackeys: https://youtu.be/IC9g5hlfV6o
 
-This was my first try:
+This was my first try:<br>
 
 ![snow layer house before](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_before.PNG) 
-![snow layer house after](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_after.PNG)
+![snow layer house after](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_after.PNG)<br>
 
 The shader was not working correctly and instead of covering only the top side of an object, it covered the whole object in snow, which made totally white.
-The youtube video contained a little older version, which was the reason for this error and after a fix the house looked like this.
+The youtube video contained a little older version, which was the reason for this error and after a fix the house looked like this.<br>
 
-![snow layer house completed](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_completed.png)
+![snow layer house completed](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/house_completed.png)<br>
 
 Much better :) As you can see in the result image the snow only lies on the top layer of the object.
 This was possible thanks to a raycast from above. <br>
@@ -26,7 +26,7 @@ The next image contains my Shader Graphs for the snow layer:
 
 ### Snow layer (Shader Graphs)
 
-![snow layer shader graphs](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png)
+![snow layer shader graphs](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/snow_layer.png)<br>
 
 The result is like day and night. The environment looks totally different:
 
@@ -48,8 +48,10 @@ This error causes you to see different scenes with both eyes and can be easily f
 ![snow layer eye error yes](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_yes.png)
 
 ### Right Eye Vision
+
 ![snow layer eye error no](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/eye_error_no.png)
 
 ### Error Fix
+
 ![snow layer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snow_layer/options.png)
 
