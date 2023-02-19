@@ -1,5 +1,5 @@
 ---
-title: "Teleporter & Coins"
+title: "Teleporter"
 date: 2023-02-18T09:46:32+01:00
 draft: false
 weight: 50
@@ -34,8 +34,11 @@ I set the Rigidbody to **Kinematic** and activated all the **Constraints**, as t
 This image shows the collider of a curve tile. The Mesh Collider is set to convex. 
 If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.<br>
 
-![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)
+![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)<br>
 
+This is the final version of the teleporter system:<br>
+
+![teleporter final](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter_final.gif)<br>
 
 ## Errors
 ### Collision Detection Error

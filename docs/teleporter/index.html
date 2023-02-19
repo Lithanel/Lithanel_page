@@ -3,7 +3,7 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Teleporter &amp; Coins - Interaction in Virtual and Augmented Reality</title>
+<title>Teleporter - Interaction in Virtual and Augmented Reality</title>
 <meta name="description" content="Snowball Parkour">
 <meta name="generator" content="Hugo 0.105.0">
 <link href="https://Lithanel.github.io/Lithanel_page/index.xml" rel="alternate" type="application/rss+xml">
@@ -17,7 +17,7 @@
 <script src="https://Lithanel.github.io/Lithanel_page/js/bundle.js"></script><style>
 :root {}
 </style>
-<meta property="og:title" content="Teleporter &amp; Coins" />
+<meta property="og:title" content="Teleporter" />
 <meta property="og:description" content="Snowball Parkour" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://Lithanel.github.io/Lithanel_page/teleporter/" /><meta property="og:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/><meta property="og:site_name" content="Hugo Techdoc Theme" />
@@ -25,9 +25,9 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://Lithanel.github.io/Lithanel_page/images/og-image.png"/>
 
-<meta name="twitter:title" content="Teleporter &amp; Coins"/>
+<meta name="twitter:title" content="Teleporter"/>
 <meta name="twitter:description" content="Snowball Parkour"/>
-<meta itemprop="name" content="Teleporter &amp; Coins">
+<meta itemprop="name" content="Teleporter">
 <meta itemprop="description" content="Snowball Parkour"></head>
 <body><div class="container"><header>
 <h1>Interaction in Virtual and Augmented Reality</h1><span class="version">Version 0.9.9</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
@@ -42,7 +42,7 @@
 </div>
 
 <div class="content-container">
-<main><h1>Teleporter &amp; Coins</h1><p>Now that we have the throwing function, we can start implementing the teleport system.
+<main><h1>Teleporter</h1><p>Now that we have the throwing function, we can start implementing the teleport system.
 What exactly do we need?</p>
 <ul>
 <li>A portal is created at the point of impact of the snowball. Buildings and objects don&rsquo;t count.</li>
@@ -64,7 +64,9 @@ I set the Rigidbody to <strong>Kinematic</strong> and activated all the <strong>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/street_collider.png" alt="street collider"><br></p>
 <p>This image shows the collider of a curve tile. The Mesh Collider is set to convex.
 If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.<br></p>
-<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png" alt="convex collider"></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png" alt="convex collider"><br></p>
+<p>This is the final version of the teleporter system:<br></p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/teleporter_final.gif" alt="teleporter final"><br></p>
 <h2 id="errors">Errors</h2>
 <h3 id="collision-detection-error">Collision Detection Error</h3>
 <p>This is my attempt creating the portal without setting the <strong>Mesh Collider</strong> to <strong>Convex</strong>.<br></p>
@@ -116,7 +118,7 @@ Published on 18 Feb 2023
   
 </li>
 
-<li class=" active"><a href="https://Lithanel.github.io/Lithanel_page/teleporter/">Teleporter &amp; Coins</a>
+<li class=" active"><a href="https://Lithanel.github.io/Lithanel_page/teleporter/">Teleporter</a>
   
 </li>
 

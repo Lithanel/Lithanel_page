@@ -46,4 +46,4 @@ interaction task by teleporting to this portal.<br>
 
 This is how the Interaction Portal works: <br>
 
-![interaction porta](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_portal.png)<br>
+![interaction porta](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/interaction_portal.gif)<br>
