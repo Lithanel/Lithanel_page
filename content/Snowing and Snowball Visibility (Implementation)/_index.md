@@ -1,5 +1,5 @@
 ---
-title: "Snowing and Snwoball Visibility (Implementation)"
+title: "Snowing and Snowball Visibility"
 date: 2023-02-18T09:46:32+01:00
 draft: false
 weight: 60
@@ -15,6 +15,7 @@ The system could not keep up with the creation of the particles and there were a
 In the end there was not enough snow falling down. 
 I realized I it only had to snow close to the player, so I made a smaller particle area and attached it to the player.
 This is the result: <br>
+
 ![snowing](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/snowing.gif)<br>
 
 ## Snowball Visibility
@@ -31,6 +32,7 @@ I just had to make sure that the provided script is activated as soon as the sno
 The asset **Oculus Integration**, which we mentioned in the introduction, has a script named **OVRGrabbable.cs** 
 that contains two functions called **GrabBegin** and **GrabEnd**. 
 These functions can be used to find out when the snowballs are grabbed and the outline can be activated/deactivated accordingly.
+
 ![outline](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/outline.png)<br>
 
 ### Trail Renderer
@@ -39,6 +41,7 @@ To ensure that the ball does not merge with the landscape and becomes invisible 
 This feature is included in unity and can be used by adding this component to an object. <br>
 I found this very short, but informative tutorial and added it to my project: https://www.youtube.com/watch?v=9PqPZDqSDWA <br>
 In the following picture you can see the options I used and the gif shows the final result. <br>
+
 ![trail renderer options](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer_options.png)<br>
 ![trail renderer](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/snowing/trail_renderer.gif)<br>
 

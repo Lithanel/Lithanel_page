@@ -1,5 +1,5 @@
 ---
-title: "Teleporter & Coins (Implementation)"
+title: "Teleporter & Coins"
 date: 2023-02-18T09:46:32+01:00
 draft: false
 weight: 50
@@ -33,17 +33,21 @@ I set the Rigidbody to **Kinematic** and activated all the **Constraints**, as t
 
 This image shows the collider of a curve tile. The Mesh Collider is set to convex. 
 If you look at the error you can see that the colliders height is too high compared to the ground in the foreground.<br>
+
 ![convex collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/convex_collider.png)
 
 
 ## Errors
 ### Collision Detection Error
 This is my attempt creating the portal without setting the **Mesh Collider** to **Convex**.<br>
+
 ![error collider](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_convex.gif)<br>
+
 The snowball just disappear into the ground, since some collisions are not detected properly.
 There were still some snowballs disappearing without creating a portal, even though the Mesh Colliders set to convex.
 
 This problem was solved by creating a big platform underneath the map to catch the balls in case they fall through the ground.<br>
+
 ![platform](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/platform.png)<br>
 
 ### Snowball velocity error
@@ -52,6 +56,7 @@ The snowball returns to the spawn location after hitting the ground or an object
 This error occurs, since the velocity of the ball is still high and it still travels into the thrown direction.
 Gravity is also still active, which makes the ball lose height. This state repeats itself until the velocity reaches 0.
 You can fix this problem by setting the velocity and gravity to 0 the moment the ball hits an object.<br>
+
 ![error_jiggle](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_jiggle.gif)<br>
 
 ## Collect Coins
