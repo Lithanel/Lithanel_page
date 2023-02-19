@@ -40,3 +40,7 @@ Vector3 fullThrowVelocity = (linearVelocity + cross) * ballSpeed;
 ## Higher Velocity (ballSpeed)
 
 ![throwing further](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/throwing_further.gif)
+
+## Funny Bug
+
+![it flies away](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/throw/it_flies_away.gif)
