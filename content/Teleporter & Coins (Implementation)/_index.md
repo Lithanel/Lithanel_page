@@ -51,6 +51,5 @@ This problem was solved by creating a big platform underneath the map to catch t
 The snowball returns to the spawn location after hitting the ground or an object. 
 This error occurs, since the velocity of the ball is still high and it still travels into the thrown direction.
 Gravity is also still active, which makes the ball lose height. This state repeats itself until the velocity reaches 0.
-An easy fix for this problem is to set the velocity and gravity to 0 the moment the ball hits an object.
-
+You can fix this problem by setting the velocity and gravity to 0 the moment the ball hits an object.<br>
 ![error_jiggle](https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/teleporter/error_jiggle.gif)<br>
