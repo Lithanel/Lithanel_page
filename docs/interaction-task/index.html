@@ -45,12 +45,15 @@
 <main><h1>Interaction Task</h1><p>Surprisingly, the most time of the project I spent on the Interaction Task. It took several Bugfixes and adjustments to create a proper system,
 which doesn&rsquo;t throw any errors and is fun to play. In this chapter I will explain how I implemented the Interaction Task in my project.<br>
 First of all I created some models:<br></p>
-<h2 id="snowman">Snowman</h2>
-<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/snowman.png" alt="snowman"><br></p>
 <h2 id="carrot-nose">Carrot (Nose)</h2>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/carrot.png" alt="carrot"><br></p>
 <h2 id="two-branches-arm">Two Branches (Arm)</h2>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/branch.png" alt="branch"><br></p>
+<h2 id="snowman">Snowman</h2>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/snowman.png" alt="snowman"><br></p>
+<p>The snowman model has three collider that check if nose and arms were attached the right way around (image: green arrows).
+If the objects <strong>wrong collider</strong> collides with the snowmans collider first than the object respawn at the start position and it is registered as a failed throw.</p>
+<p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/snowman_collider.png" alt="snowman collider"><br></p>
 <h2 id="idle-interaction-portal">Idle Interaction Portal</h2>
 <p><img src="https://raw.githubusercontent.com/Lithanel/Lithanel_page/master/images/interaction/tp_deactivated.png" alt="tp deactivated"><br></p>
 <h2 id="activated-interaction-portal">Activated Interaction Portal</h2>
