@@ -95,11 +95,12 @@ enableMissingTranslationPlaceholders = false
 		url = "https://docs.google.com/presentation/d/1aVsgXj29mHtEy-nZ9bIcoOfSkA50oYer/edit?usp=sharing&ouid=112913964399048783045&rtpof=true&sd=true"
 		weight = 4
 		identifier = 'google'	
+		
 	[[menu.main]]
 		name = "Download APK"
 		url = "https://drive.google.com/file/d/1de-mzDiwnJCIDz9v4D_aYtda_UFUMJUQ/view"
 		weight = 5
-		identifier = 'google'	
+		identifier = 'google2'	
 		
 # Markup configure section
 # See https://gohugo.io/getting-started/configuration-markup/
